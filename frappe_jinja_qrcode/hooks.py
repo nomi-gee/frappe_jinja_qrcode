@@ -59,10 +59,10 @@ app_license = "mit"
 # ----------
 
 # add methods and filters to jinja environment
-# jinja = {
-# 	"methods": "frappe_jinja_qrcode.utils.jinja_methods",
-# 	"filters": "frappe_jinja_qrcode.utils.jinja_filters"
-# }
+jinja = {
+	"methods": "frappe_jinja_qrcode.qr_code.get_qr",
+	# "filters": "frappe_jinja_qrcode.utils.jinja_filters"
+}
 
 # Installation
 # ------------
